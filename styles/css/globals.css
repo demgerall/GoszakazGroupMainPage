@@ -2,7 +2,7 @@
   font-family: "Futura PT";
   font-style: normal;
   font-weight: 400;
-  src: local("Futura PT"), url("/assets/fonts/FuturaPT-Book.woff") format("woff");
+  src: local("Futura PT"), url("/GoszakazGroupMainPage/assets/fonts/FuturaPT-Book.woff") format("woff");
 }
 :root {
   --primary-color: #5d71dd;
