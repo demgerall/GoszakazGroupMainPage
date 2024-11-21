@@ -1,0 +1,191 @@
+.sidebar {
+    width: 320px;
+
+    // position: sticky;
+    // top: 410px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 40px;
+
+    .popular_news {
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 30px;
+
+        .news-container {
+            display: flex;
+            flex-flow: column nowrap;
+
+            .news_block {
+                padding: 10px 0;
+
+                display: flex;
+                flex-flow: column nowrap;
+                gap: 10px;
+
+                border-bottom: 1px solid var(--black2-transperant10-color);
+
+                cursor: pointer;
+
+                transition: all 0.3s ease-in-out;
+
+                &:last-child {
+                    padding: 10px 0 0 0;
+
+                    border: none;
+                }
+
+                &:hover .news_name {
+                    color: var(--primary-color);
+                }
+            }
+        }
+    }
+
+    .subscibe_to_mail {
+        padding: 40px 30px;
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        gap: 30px;
+
+        border-radius: 20px;
+        background-color: var(--white-color);
+
+        .subscibe_to_mail_heading {
+            text-align: center;
+        }
+
+        .form_interactive_wrapper {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            gap: 21px;
+
+            .subscibe_to_mail_input {
+                padding: 13px 32px 13px 30px;
+
+                background-color: var(--gray-color);
+                border: none;
+                border-radius: 20px;
+
+                font-family: var(--font-family);
+                font-size: var(--font-size-normal);
+                line-height: var(--line-height);
+                color: var(--black2-transperant40-color);
+
+                cursor: pointer;
+
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    background-color: var(--background-color);
+
+                    &::placeholder {
+                        color: var(--black2-transperant60-color);
+                    }
+                }
+
+                &::placeholder {
+                    padding: 13px 32px 13px 30px;
+
+                    font-family: var(--font-family);
+                    font-size: var(--font-size-normal);
+                    line-height: var(--line-height);
+                    color: var(--black2-transperant40-color);
+
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+
+            .subscibe_to_mail_button {
+                padding: 13px 68px;
+
+                background-color: var(--primary-color);
+                border: none;
+                border-radius: 20px;
+
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+
+                font-family: var(--font-family);
+                font-size: var(--font-size-normal);
+                line-height: var(--line-height);
+                color: var(--white-color);
+
+                cursor: pointer;
+
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    background-color: var(--primary-hover-color);
+                }
+
+                &:focus {
+                    outline: 1.5px solid var(--black2-color);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (320px < width <= 1024px) {
+    .sidebar {
+        width: 100%;
+        margin-bottom: 80px;
+
+        .popular_news {
+            .news-container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+
+                .news_block {
+                    justify-content: space-between;
+
+                    border: none;
+                }
+            }
+        }
+        .subscibe_to_mail {
+            padding: 40px 148px;
+
+            .subscibe_to_mail_heading {
+                text-align: left;
+            }
+
+            .form_interactive_wrapper {
+                flex-flow: row nowrap;
+
+                .subscibe_to_mail_input {
+                    width: 100%;
+
+                    flex-shrink: 1;
+                }
+
+                .subscibe_to_mail_button {
+                    padding: 13px 60px;
+
+                    flex-shrink: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 872px) {
+    .sidebar {
+        .subscibe_to_mail {
+            .form_interactive_wrapper {
+                flex-flow: column nowrap;
+            }
+        }
+    }
+}

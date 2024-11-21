@@ -1,0 +1,39 @@
+// Global variables
+@use '../styles/variables/globals';
+
+// Elements styles
+@use '../styles/sass/header';
+@use '../styles/sass/logo';
+@use '../styles/sass/main';
+@use '../styles/sass/nav';
+@use '../styles/sass/link';
+@use '../styles/sass/contacts';
+@use '../styles/sass/text_types';
+@use '../styles/sass/sidebar';
+@use '../styles/sass/main_content';
+@use '../styles/sass/tag';
+@use '../styles/sass/time';
+@use '../styles/sass/pagination';
+@use '../styles/sass/footer';
+
+// Global styles
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-weight: 400;
+}
+
+html {
+    width: 100vw;
+}
+
+body {
+    width: 100%;
+
+    overflow-x: hidden;
+
+    background-color: var(--background-color);
+}

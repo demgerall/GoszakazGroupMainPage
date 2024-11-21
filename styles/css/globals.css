@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Futura PT"), url("/assets/fonts/FuturaPT-Book.woff") format("woff");
+}
+:root {
+  --primary-color: #5d71dd;
+  --primary-hover-color: #6c7dd8;
+  --primary-transparent5-color: #5d71dd0d;
+  --primary-transparent15-color: #5d71dd26;
+  --primary-transparent20-color: #5d71dd33;
+  --white-color: #ffffff;
+  --white-transparent20-color: #ffffff33;
+  --white-transparent40-color: #ffffff66;
+  --background-color: #f9f9f9;
+  --black-color: #000000;
+  --black-transperant15-color: #00000026;
+  --black2-color: #2f2222;
+  --black2-transperant10-color: #2f22221a;
+  --black2-transperant40-color: #2f222266;
+  --black2-transperant60-color: #2f222299;
+  --gray-hover-color: #ededed;
+  --gray-color: #f5f5f5;
+  --font-family: "Futura PT", sans-serif;
+  --font-size-heading: 24px;
+  --font-size-normal: 18px;
+  --font-size-small: 16px;
+  --font-size-extra-small: 14px;
+  --line-height: 128%;
+}

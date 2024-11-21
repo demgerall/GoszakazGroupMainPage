@@ -1,0 +1,20 @@
+.link {
+    font-family: var(--font-family);
+    font-size: var(--font-size-normal);
+    line-height: var(--line-height);
+    color: var(--black2-color);
+
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover,
+    &.active {
+        color: var(--primary-color);
+
+        text-decoration: underline;
+    }
+
+    &.active {
+        cursor: default;
+    }
+}

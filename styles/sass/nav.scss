@@ -1,0 +1,16 @@
+.nav_wrapper,
+.nav {
+    display: flex;
+    flex-flow: row nowrap;
+
+    &.header_nav {
+        gap: 40px;
+    }
+    &.footer_nav {
+        gap: 80px;
+    }
+}
+
+.nav_wrapper {
+    gap: 40px;
+}

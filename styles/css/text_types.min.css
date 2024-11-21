@@ -1,0 +1,1 @@
+.heading_text,.normal_text,.small_text{font-family:var(--font-family);font-weight:400;line-height:var(--line-height);color:var(--black2-color)}.heading_text{font-weight:600;font-size:var(--font-size-heading)}.normal_text{font-size:var(--font-size-normal)}.small_text{font-size:var(--font-size-small)}

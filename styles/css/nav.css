@@ -1,0 +1,22 @@
+.nav_wrapper,
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+.nav_wrapper.header_nav,
+.nav.header_nav {
+  gap: 40px;
+}
+.nav_wrapper.footer_nav,
+.nav.footer_nav {
+  gap: 80px;
+}
+
+.nav_wrapper {
+  gap: 40px;
+}

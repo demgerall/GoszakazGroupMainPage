@@ -1,0 +1,12 @@
+.time {
+    font-family: var(--font-family);
+    font-size: var(--font-size-small);
+    line-height: var(--line-height);
+
+    &.light {
+        color: var(--white-color);
+    }
+    &.dark {
+        color: var(--black2-transperant40-color);
+    }
+}

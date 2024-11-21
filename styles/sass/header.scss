@@ -1,0 +1,22 @@
+.header {
+    width: 100vw;
+    height: 70px;
+    padding: 0 13.5vw;
+
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--white-color);
+}
+
+@media screen and (320px < width <= 1024px) {
+    .header {
+        padding: 0 42px;
+    }
+}

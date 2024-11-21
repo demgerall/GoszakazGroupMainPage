@@ -1,0 +1,20 @@
+.contacts {
+  width: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  font-family: var(--font-family);
+  font-size: var(--font-size-normal);
+  color: var(--primary-color);
+  line-height: var(--line-height);
+  cursor: pointer;
+}

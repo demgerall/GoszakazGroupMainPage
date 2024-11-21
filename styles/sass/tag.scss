@@ -1,0 +1,43 @@
+.tag {
+    padding: 8px 16px;
+
+    border-radius: 8px;
+
+    font-family: var(--font-family);
+    font-size: var(--font-size-small);
+    line-height: var(--line-height);
+
+    text-decoration: none;
+
+    transition: all 0.3s ease-in-out;
+
+    &.primary {
+        background-color: var(--primary-transparent5-color);
+
+        color: var(--primary-color);
+
+        &:hover {
+            background-color: var(--primary-transparent15-color);
+        }
+    }
+
+    &.white {
+        background-color: var(--white-transparent20-color);
+
+        color: var(--white-color);
+
+        &:hover {
+            background-color: var(--white-transparent40-color);
+        }
+    }
+}
+
+@media screen and (max-width: 1850px) {
+    .tag {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+
+        font-size: var(--font-size-extra-small);
+    }
+}

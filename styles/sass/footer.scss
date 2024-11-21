@@ -1,0 +1,26 @@
+.footer {
+    width: 100%;
+    padding: 40px 0;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+
+    background-color: var(--primary-transparent5-color);
+
+    .contant-container {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .copyright {
+        font-family: var(--font-family);
+        font-size: var(--font-size-extra-small);
+        line-height: var(--line-height);
+    }
+}
