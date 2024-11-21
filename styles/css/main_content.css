@@ -109,10 +109,10 @@
   background-size: cover;
 }
 .main_content .card.vertical.image1 {
-  background-image: url("/assets/images/image1.jpg");
+  background-image: url("/GoszakazGroupMainPage/assets/images/image1.jpg");
 }
 .main_content .card.vertical.image2 {
-  background-image: url("/assets/images/image2.jpg");
+  background-image: url("/GoszakazGroupMainPage/assets/images/image2.jpg");
 }
 .main_content .card.vertical .card_content {
   display: -webkit-box;
